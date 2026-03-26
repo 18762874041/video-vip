@@ -8,7 +8,7 @@ chrome.runtime.onInstalled.addListener(() => {
     id: "vip-video-menu",
     title: "VIP视频",
     contexts: ["page"],
-    documentUrlPatterns: ["https://v.qq.com/*","https://www.youku.com/*","https://v.youku.com/","https://www.iqiyi.com/*"]
+    documentUrlPatterns: ["https://v.qq.com/*","https://www.youku.com/*","https://v.youku.com/*","https://www.iqiyi.com/*"]
   });
 });
 
